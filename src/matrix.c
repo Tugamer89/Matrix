@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
         double pivot = A[k][k];
         
         if (pivot == 0) {
-            printf("Matrix is singular\n%zu\n", k);
+            printf("Matrix is singular\n");
             return 1;
         }
 
