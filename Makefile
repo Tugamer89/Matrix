@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Ipingpong_lib
+CFLAGS = -O3 -flto -march=native
 
 SRC = src
 BIN_DIR = bin

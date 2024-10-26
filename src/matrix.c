@@ -45,6 +45,8 @@ int main(int argc, char *argv[]) {
     printf("\nEnter matrix b:\n");
     popolate_matrix(b, n, 1);
 
+    printf("\nSteps:\n");
+
     // Gaussian elimination
     for (size_t k = 0; k < n-1; ++k) {
         size_t max_pivot = k;
