@@ -4,4 +4,4 @@
 
 # Matrix
 
-Some matrix operations.
+Matrix Gaussian elimination and back substitution for solving linear systems.
